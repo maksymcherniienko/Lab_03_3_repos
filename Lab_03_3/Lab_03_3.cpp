@@ -23,7 +23,7 @@ int main()
 		if (x > -2 && x <= 4)
 			y = 1 + (-R - 1) / 6 * (x + 2);
 		else
-			if (x > 8 - R && x < 8 + R)
+			if (x > 8 - R && x <= 8 + R)
 				y = sqrt(pow(R, 2) - pow(x, 2) + 16 * x - 64) - R;
 			else
 				y = -R;
